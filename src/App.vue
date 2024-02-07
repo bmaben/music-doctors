@@ -1,5 +1,8 @@
 <template>
-  <HomePage />
+  
+    <HomePage />
+ 
+
 </template>
 
 
