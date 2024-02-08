@@ -40,6 +40,16 @@ nav ul {
 nav li {
   display: inline;
   margin-right: 20px;
+  text-transform: uppercase;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+
+nav ul li:hover {
+  color: #555;
 }
 
 .header-img {
@@ -50,6 +60,8 @@ nav li {
   background-color: #cccccc;
   height: 20vh;
 }
+
+
 
 
 </style>
